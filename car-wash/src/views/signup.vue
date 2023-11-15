@@ -1,10 +1,10 @@
 <template>
-  <div class="login-container mt-3">
-    <p class="login-container__title">ورود به سامانه</p>
-    <p class="login-container__description">
-      برای ورود به سامانه ایمیل و نام کاربری خود را وارد کنید.
+  <div class="signup-container mt-3">
+    <p class="signup-container__title"> ثبت نام در سامانه</p>
+    <p class="signup-container__description">
+      برای ثبت نام در سامانه ایمیل و نام کاربری خود را وارد کنید.
     </p>
-    <form class="login-form">
+    <form class="signup-form">
       <input-field
         type="email"
         inputText="ایمیل"
@@ -60,7 +60,7 @@ const hide = () => {
 </script>
 
 <style scoped lang="scss">
-.login-container {
+.signup-container {
   &__title {
     font-size: 20px;
   }
@@ -68,7 +68,7 @@ const hide = () => {
     font-size: 15px;
   }
 }
-.login-form {
+.signup-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
