@@ -2,5 +2,6 @@
 
 </script>
 <template>
+    dashboard
   
 </template>
